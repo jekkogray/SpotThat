@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SignIn Activity-->
+    <string name="app_name">SpotThat</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="com_spotify_sdk_redirect_scheme" translatable="false">com.example.spotthat</string>
+    <string name="com_spotify_sdk_redirect_host" translatable="false">callback</string>
+    <string name="title_activity_main">SpotThat</string>
+    <string name="rememberMeSwitch">Remember me</string>
+    <!--SignUp Activity-->
+    <string name="verifyPasswordText">Confirm password</string>
+
+    <!--Main Activity-->
+    <string name="addYourSpotifyPlaylistButton"> Add your Spotify playlist</string>
+    <string name="connectSpotifyPlaylistButton"> Connect Spotify Playlist </string>
+    <string name="spotMapButton"> SPOTMAP </string>
+    <string name="search">SEARCH</string>
+    <string name="spotThatSearch">SpotThat Search</string>
+    <string name="MySpotThat">My SpotThat</string>
+    <!--SpotThat Activity-->
+    <string name="spotThatRecommendation">SpotThat Recommendation</string>
+    <string name="spottedPlaylists">Spotted Playlists</string>
+    <string name="mySpotThatPlaylist">My SpotThat Playlist</string>
+    <string name="spotMyPlaylist">SPOT MY PLAYLIST</string>
+    <string name="closeMyPlaylist">Close My Playlist</string>
+    <!--MapActivity-->
+    <string name="title_activity_spot_map">SPOTMAP</string>
+    <string name="chooseAlocation">CHOOSE A LOCATION</string>
+
+    <!--Playlist Row-->
+    <string name="playlistTitle"> Playlist Title </string>
+    <string name="owner"> Playlist Owner </string>
+    <string name="description">Description</string>
+    <string name="trackTotal">Track Total: </string>
+    <string name="spotThis">Spot This</string>
+    <string name="spotHere">Spot Here</string>
+    <string name="viewPlaylistButton">VIEW</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SignIn Activity-->
+    <string name="app_name">SpotYon</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Mag-sign in</string>
+    <string name="signup">Mag-sign up</string>
+    <string name="com_spotify_sdk_redirect_scheme" translatable="false">com.example.spotthat</string>
+    <string name="com_spotify_sdk_redirect_host" translatable="false">callback</string>
+    <string name="title_activity_main">SpotYon</string>
+    <string name="rememberMeSwitch">Tandaan mo ako</string>
+    <string name="MySpotThat">Ang SpotYon ko</string>
+
+    <!--SignUp Activity-->
+    <string name="verifyPasswordText">kumpirmahin ang password</string>
+
+    <!--Main Activity-->
+    <string name="addYourSpotifyPlaylistButton"> Dagdagan ang iyong tugtugin Spotify</string>
+    <string name="connectSpotifyPlaylistButton"> Ikonnekta ang tugtuging Spotify</string>
+    <string name="spotMapButton"> SPOTMAPA </string>
+    <string name="search">MAGHANAP</string>
+    <string name="spotThatSearch">SpotThat HANAPAN</string>
+
+    <!--SpotThat Activity-->
+    <string name="spotThatRecommendation">SpotYon Rekomendasyon</string>
+    <string name="spottedPlaylists">NaSpot na Tugtugin</string>
+    <string name="spotMyPlaylist">AKING TUGTUGIN</string>
+    <string name="closeMyPlaylist">ISARADO</string>
+    <string name="mySpotThatPlaylist">Ang Aking SpotYon Tugtugin</string>
+    <!--MapActivity-->
+    <string name="chooseAlocation">PUMILI NG KATAYUAN</string>
+    <string name="title_activity_spot_map">SPOTMAPA</string>
+
+    <!--Playlist Row-->
+    <string name="playlistTitle"> Playlist Title </string>
+    <string name="owner"> Playlist Owner </string>
+    <string name="description">Description</string>
+    <string name="trackTotal">Kabuuan ng mga kanta: </string>
+    <string name="spotThis">Spot Ito</string>
+    <string name="spotHere">Spot Dito</string>
+    <string name="viewPlaylistButton">TINGNAN</string>
+</resources>

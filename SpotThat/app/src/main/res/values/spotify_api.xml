@@ -1,0 +1,5 @@
+<resources>
+   // Provide your spotify client ID here
+   <string name="spotify_client_id" translatable="false">071f3eee3c684e3c85e2a7b39d1e106e</string>
+   <string name="spotify_callback" translatable="false">http://localhost:8888/callback</string>
+</resources>

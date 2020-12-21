@@ -1,0 +1,107 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spotifyLoginButton"
+        android:layout_width="411dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="168dp"
+                android:layout_height="142dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/spotThisButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/spotThis"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/viewPlaylistButton"
+                app:layout_constraintTop_toBottomOf="@+id/trackTotalTextView" />
+
+            <Button
+                android:id="@+id/spotHereButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spotHere"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/spotThisButton"
+                app:layout_constraintTop_toBottomOf="@+id/trackTotalTextView" />
+
+            <Button
+                android:id="@+id/viewPlaylistButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/viewPlaylistButton"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="@+id/description"
+                app:layout_constraintTop_toTopOf="@+id/spotThisButton" />
+
+            <TextView
+                android:id="@+id/playlistOwner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/owner"
+                app:layout_constraintStart_toStartOf="@+id/playlistTitleTextView"
+                app:layout_constraintTop_toBottomOf="@+id/playlistTitleTextView" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="203dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/description"
+                app:layout_constraintStart_toStartOf="@+id/playlistOwner"
+                app:layout_constraintTop_toBottomOf="@+id/playlistOwner" />
+
+            <TextView
+                android:id="@+id/playlistTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/playlistTitle"
+                app:layout_constraintStart_toEndOf="@+id/thumbnail"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/trackTotalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trackTotal"
+                app:layout_constraintStart_toStartOf="@+id/description"
+                app:layout_constraintTop_toBottomOf="@+id/description" />
+
+            <ImageButton
+                android:id="@+id/removePlaylistButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="#00FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_remove_circle_outline_24"
+                tools:visibility="visible" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "10103349892",
+    "firebase_url": "https://spotthat-fall-2020.firebaseio.com",
+    "project_id": "spotthat-fall-2020",
+    "storage_bucket": "spotthat-fall-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10103349892:android:60658738f66b8dc56b58d1",
+        "android_client_info": {
+          "package_name": "com.example.spotthat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10103349892-pq78jp8oumupaubmppq5m7ovsa2ehr2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA2axDMJ_WZ0Y2-Pu-oGPsoRD8T6gIM_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10103349892-pq78jp8oumupaubmppq5m7ovsa2ehr2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
