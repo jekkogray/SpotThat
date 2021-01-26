@@ -7,7 +7,7 @@ Additionally, users can pin their favorite playlist on the map for other users t
 
 [Video Demo](https://www.youtube.com/watch?v=dPKEnE1twSo&ab_channel=JekkoGray)
 
-This demo is running Android 10 on a <b>GooglePixel 2XL</b> device.
+This demo is running Android 10 on a <b>Google Pixel 2XL</b> device.
 
 The APK to run SpotThat on your own Android device is available <a href="https://github.com/jekkogray/SpotThat/build/SpotThat-demo.apk" download> here.</a>
 
