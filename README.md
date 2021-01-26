@@ -62,7 +62,7 @@ Instead of typing the same username and password again, users can tap on Remembe
 </blockquote>
 
 #### [Results Activity](https://github.com/GWU-CSCI-4237-Fall-2020/project-2-byoi-jekko-s-solo-team/blob/master/SpotThat/app/src/main/java/com/example/spotthat/ResultsActivity.kt)
-<img src="/readme-imgs/SignActivity.png" alt="Sign up Activity" width=200/>
+<img src="/readme-imgs/ResultsActivity.png" alt="Sign up Activity" width=200/>
 <blockquote>
 <p>
 <b>Results Activity</b> shows the results of a query from the <b>Main Activity</b> or a pinned location in <b>SpotMap</b>.
