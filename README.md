@@ -49,7 +49,7 @@ Instead of typing the same username and password again, users can tap on Remembe
 <img src="/readme-imgs/SpotMapActivity-day.png" alt="SpotMap Activity" width=200/>
 <blockquote>
 <p>
-<b>SpotMap Activity</b> allows users to explore the map freely. Users can pin on any location and check out music people have shared in this app on the pinned location.
+<b>SpotMap Activity</b> allows users to explore the map freely. Users can pin on any location and check out music people have shared in this app on the pinned location. This uses the Google Maps SDK
 </p>
 </blockquote>
 
